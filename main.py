@@ -1,4 +1,6 @@
 #!usr/bin/python3
+# This program scrapes coindesk.com and takes the data on every coin to make it
+# more easy to acces it through a simple python terminal interface. 
 import sys  # To exit program
 from connectToCurrencies import currencyScraper  # Module with class 
 
