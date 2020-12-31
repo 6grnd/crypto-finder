@@ -22,7 +22,7 @@ def instantiate_coin():
         try:  
             return currencyScraper(chosen_coin)
         except: 
-            print("not a valid choice") 
+            print("\nnot a valid choice\n") 
             control_flow()
 
     elif chosen_coin == "e": 
