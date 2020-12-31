@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 
 
 class currencyScraper():
-    """ This class focuses on scraping coindesk.com"""
+    """ This class focuses on scraping coindesk.com and creating different
+    attributes and methods for the coins based on that."""
             
     def __init__(self, coin):
         # Define the self functions. 
