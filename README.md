@@ -13,4 +13,4 @@ The same python program but now you set a max price and a min price. The thing I
 
 ## Theoretical Third Version Which Is Never Coming. 
 
-Actually notify the user when the price fo a coin hits the max and min he set earlier in the program use. Create a tkinter GUI so the program is actually usable for non programmers. These things are time consuming and I don't know if I'll ever do them but I'll still include them here. 
+Actually notify the user when the price of a coin hits the max and min he set earlier in the program use. Create a tkinter GUI so the program is actually usable for non programmers. These things are time consuming and I don't know if I'll ever do them but I'll still include them here. 
