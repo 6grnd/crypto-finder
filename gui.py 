@@ -1,0 +1,5 @@
+from tkinter import * 
+window = Tk() 
+window.title("Welcome to PonyKiller's Cryto Scraper")
+window.geometry("500x500")
+window.mainloop()
