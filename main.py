@@ -3,7 +3,6 @@
 # more easy to acces it through a simple python terminal interface. 
 import sys  # To exit program
 from connectToCurrencies import currencyScraper  # Module with class 
-from tkinter import * 
 
 options = """
 \nOptions include but are not limited to bitcoin, xrp, ethereum,
@@ -81,11 +80,4 @@ def do_another_task():
         do_another_task()
 
 
-# Run main control flow function. 
-control_flow()
     
-
-window = Tk() 
-window.title("Welcome to PonyKiller's Cryto Scraper")
-window.geometry("500x500")
-window.mainloop()
