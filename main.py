@@ -45,27 +45,22 @@ def control_flow():
 
 f"""
 What do you want to do with {chosen_coin.getName()}\n
-1) Notify me in max and min. 
-2) Get information on coin. 
-3) Get current price
-4) Get URL for complete coin information.\n
-(1, 2, 3, 4) 
+1) Get information on coin. 
+2) Get current price
+3) Get URL for complete coin information.\n
+(1, 2, 3) 
 
 ====> """))
 
     # Control flow on where to proceed.
     if where == 1: 
-        print("Set max and min not complete yet") 
-        print(chosen_coin.set_min_and_max())
-        do_another_task()
-    elif where == 2: 
         print(chosen_coin)
         print(chosen_coin.getInfo())
         do_another_task()
-    elif where == 3: 
+    elif where == 2: 
         print(chosen_coin.getPrice())
         do_another_task()
-    elif where == 4: 
+    elif where == 3: 
         print(chosen_coin.getURL())
         do_another_task()
     else: 
