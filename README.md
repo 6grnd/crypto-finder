@@ -1,4 +1,4 @@
-# crypto-finder
+# crypto-finder (2019)
 Tool to find current information on the most important cryptos. 
 
 
